@@ -1,0 +1,46 @@
+/* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
+.ipsCategory > .container .content .visual > .enum > div, 
+.ipsCategory > .container .content .visual > .selector > div, 
+.ipsCategory > .container .extended > .textBox > div {
+	min-width: 50px;
+	text-align: center; 
+}
+
+/* Farbe verändern */
+.ipsWebFront {
+	background-color: #878787;
+}
+
+.ipsTabPane > .navigation ,
+.ipsContentChanger > .navigation {
+	background-color: #111111;
+}
+
+/* Spezielle HTMLBox ohne Titel (Profil: HTMLBox.NoTitle) */
+[class~="ipsVariableProfile[HTMLBox.NoTitle]"] .content.tr {
+    display: none!important;
+}
+
+
+.ipsTabPane > .navigation {
+    background-color: #0d1724;
+	background: rgb(105,109,117); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(105,109,117,1) 0%, rgba(69,72,77,1) 7%, rgba(54,54,54,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(105,109,117,1) 0%,rgba(69,72,77,1) 7%,rgba(54,54,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(105,109,117,1) 0%,rgba(69,72,77,1) 7%,rgba(54,54,54,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696d75', endColorstr='#363636',GradientType=0 ); /* IE6-9 */
+    border-bottom: 1px solid #333 !important;
+}
+
+.ipsCategory > .container .content .visual > .enum > div, .ipsCategory > .container .content .visual > .selector > div, .ipsCategory > .container .extended > .textBox > div {
+    background-image: -moz-linear-gradient(center top , rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.3) 28%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.ipsLegend {
+    background-color: rgba(84, 83, 83, 0.3);
+}
+
+/* Dark Icons */
+.ipsTabPane > .navigation > .scroll > .buttons > div > .icon {
+    opacity: 0.7;
+}
