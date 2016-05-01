@@ -3,5 +3,7 @@
     "version": "0.1",
     "compatible": 1,
     "url": "http:\/\/www.ip-symcon.de\/forum\/",
-    "git": "https:\/\/github.com\/fti7\/IP-Symcon-GreySkin"
+    "git": "https:\/\/github.com\/fti7\/IP-Symcon-GreySkin",
+    "icons": [
+    ]
 }
